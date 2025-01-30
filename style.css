@@ -1,0 +1,76 @@
+/*style.css*/
+
+* {
+
+background-color: rgb(222, 241, 169);
+font-family: 'Courier New', Courier, monospace;
+
+
+
+}
+/*remember that * is the universal selector. Use these for all of my page basic properties
+such as font-family, background color of main page, and color of text. These can of course 
+be overwritten by more specificity in later css like the "h!" header below. Don't forget 
+"chaining" and "descendant combinators" (like parent child relationship and instead of
+combining space with period as chaining does, descendant combinator has space before period*/
+
+h1{
+    text-align:center;
+    font-family:'Courier New', Courier, monospace,sans-serif;
+    font-size: 100px;
+    background-color: rgb(214, 49, 49);
+    font-variant: small-caps;
+    color: black;
+    text-decoration: underline;
+    width: 500px;
+    margin: auto;
+}
+
+
+ul {
+    display: block;
+    color: blue;
+    text-align: center;
+    margin: 0px;
+    width: 200px;
+    margin: auto;
+    
+    
+}
+/*should play around with the new div classes that I have given to the images. May be able
+to align them or do other things*/
+
+
+div {
+    display: block;
+    margin: auto;
+    padding: 15px;
+    background-color: white;
+    width: 750px;
+
+
+    /*A weird sort of workaround, but text align seemed to work to make the "block" align in the 
+    center where margin seemed to fail for some reason? Tried margin auto multiple times and couldn't
+    get it to work*/
+}
+
+/*What I've done is successfully place all the img within their own div container. Havn't figured
+out how to move the img within that container tho*/
+
+
+p.Opening {
+    text-align:center;
+    font-weight: bold;
+    background-color: rgb(238, 238, 121);
+    color: black;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    background-color: white;
+
+}
+
+/*successfully assigned a unique class to the Opening paragraph, here i used a chaining
+technique but I'm sure its also possible using a descendant combinator*/
+
+
